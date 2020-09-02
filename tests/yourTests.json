@@ -1,0 +1,34 @@
+[
+    {
+      "name": "gc-1",
+      "code": "file",
+      "heap": 8,
+      "result": {
+        "value": "(31, 32)\n"
+      }
+    },
+    {
+      "name":"gc-2",
+      "code":"file",
+      "heap":8,
+      "result":{
+        "value":"(31, 32)\n"
+      }
+    },
+    {
+      "name":"gc-3",
+      "code":"file",
+      "heap":12,
+      "result":{
+        "value":"330\n"
+      }
+    },
+    {
+      "name":"instructor-test-3",
+      "code":"file",
+      "heap":48,
+      "result":{
+        "value":"6\n(5, (4, (3, (2, (1, (0, false))))))\n(0, (1, (2, (3, (4, (5, (0, (1, (2, (3, (4, (5, false))))))))))))\n0"
+      }
+    }
+  ]
